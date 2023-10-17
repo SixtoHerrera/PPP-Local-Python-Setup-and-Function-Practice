@@ -14,7 +14,7 @@ def pack(a,b,c):
 
 def eat_lunch(my_lst):
   if len(my_lst) == 0:
-    print("My lunchbox is empty!")
+    print("My lunchbox is not empty!")
   else:
     for i in range(len(my_lst)):
       if i == 0:
